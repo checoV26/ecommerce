@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Tienda en linea asbombeo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/checoV26/ecommerce.git"
+  },
+  "author": "Sergio Marcos Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/checoV26/ecommerce/issues"
+  },
+  "homepage": "https://github.com/checoV26/ecommerce#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.3.0",
+    "winston": "^3.13.0"
+  }
+}
