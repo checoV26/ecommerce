@@ -1,0 +1,70 @@
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T02:52:46.549Z"}
+{"level":"info","message":"Petición recibida en /login","timestamp":"2024-04-13T02:53:29.924Z"}
+{"level":"info","message":"Usuario y contraseña correctos:","password":"***********","timestamp":"2024-04-13T02:53:30.099Z","userName":"smr26"}
+{"level":"info","message":"Petición recibida en /login","timestamp":"2024-04-13T02:54:13.170Z"}
+{"level":"error","message":"Usuario o contraseña incorrectos:","password":"***********","timestamp":"2024-04-13T02:54:13.254Z","userName":"smr26"}
+{"level":"info","message":"Petición recibida en /login","timestamp":"2024-04-13T02:54:39.063Z"}
+{"level":"info","message":"Usuario y contraseña correctos:","password":"***********","timestamp":"2024-04-13T02:54:39.148Z","userName":"smr26"}
+{"level":"info","message":"Se consultaron los datos de la dirección con el id: 1 y no se encontraron datos","querryResult":[],"timestamp":"2024-04-13T02:54:53.754Z"}
+{"level":"info","message":"Se consultaron los datos de la dirección con el id: 1  y no se encontraron datos","querryResult":[],"timestamp":"2024-04-13T02:55:34.255Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T02:56:13.049Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T02:56:13.054Z","validation":["colonia","calle","nExterior"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T02:56:41.356Z"}
+{"data":["asds","asd","assa","q","asd","asdsa","","73923"],"id obtenido":"20","level":"info","message":"datos guardados:","timestamp":"2024-04-13T02:56:41.385Z"}
+{"level":"info","message":"Se consulto los datos de la dirección con el id: 20","querryResult":[{"calle":"asd","codigoPostal":"73923","colonia":"q","estado":"asd","municipio":"assa","numeroExterior":"asdsa","numeroInterior":"","pais":"asds"}],"timestamp":"2024-04-13T02:57:17.145Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:41:47.675Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:42:30.893Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:42:30.896Z","validation":["cp","estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:43:34.508Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:43:37.246Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:43:37.249Z","validation":["cp","estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:44:53.003Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:44:53.004Z","validation":["cp","estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:44:59.000Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:44:59.001Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:45:05.582Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:45:05.583Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:45:07.209Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:45:07.210Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:45:25.220Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:45:27.668Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:45:27.671Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:45:29.585Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:45:29.588Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:46:48.632Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:46:48.633Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:46:50.355Z"}
+{"level":"info","message":"Datos incorrectos o faltantes:","timestamp":"2024-04-13T04:46:50.355Z","validation":["estado","municipio","colonia","calle","numeroExterno"]}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:48:30.538Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:48:33.556Z"}
+{"data":[null,"PUEBLA","HUEYAPAN","Atmoloni","de las flores",null,null,"73923"],"error":{"code":"ER_GET_CONNECTION_TIMEOUT","errno":45028,"fatal":false,"name":"SqlError","sql":null,"sqlMessage":"retrieve connection from pool timeout after 10001ms\n    (pool connections: active=0 idle=0 limit=10)","sqlState":"HY000"},"level":"error","message":"Error al ejecutar la consulta SQL","querry":"INSERT INTO address(cp, estado, municipio, colonia, calle, numeroExterno, numeroInterno, referencia) VALUES (?,?,?,?,?,?,?,?)","timestamp":"2024-04-13T04:48:43.561Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:49:43.840Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:49:46.053Z"}
+{"data":["73923","PUEBLA","HUEYAPAN","Atmoloni","de las flores","57","",""],"error":{"code":"ER_GET_CONNECTION_TIMEOUT","errno":45028,"fatal":false,"name":"SqlError","sql":null,"sqlMessage":"retrieve connection from pool timeout after 10002ms\n    (pool connections: active=0 idle=0 limit=10)","sqlState":"HY000"},"level":"error","message":"Error al ejecutar la consulta SQL","querry":"INSERT INTO address(cp, estado, municipio, colonia, calle, numeroExterno, numeroInterno, referencia) VALUES (?,?,?,?,?,?,?,?)","timestamp":"2024-04-13T04:49:56.063Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:50:16.156Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:50:18.587Z"}
+{"data":["73923","PUEBLA","HUEYAPAN","Atmoloni","de las flores","57","",""],"error":{"code":"ER_GET_CONNECTION_TIMEOUT","errno":45028,"fatal":false,"name":"SqlError","sql":null,"sqlMessage":"retrieve connection from pool timeout after 10001ms\n    (pool connections: active=0 idle=0 limit=10)","sqlState":"HY000"},"level":"error","message":"Error al ejecutar la consulta SQL","querry":"INSERT INTO address(cp, estado, municipio, colonia, calle, numeroExterno, numeroInterno, referencia) VALUES (?,?,?,?,?,?,?,?)","timestamp":"2024-04-13T04:50:28.607Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T04:51:21.578Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T04:51:25.406Z"}
+{"data":["73923","PUEBLA","HUEYAPAN","Atmoloni","de las flores","57","",""],"id obtenido":"1","level":"info","message":"datos guardados:","timestamp":"2024-04-13T04:51:25.424Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T05:07:38.403Z"}
+{"data":["73923","PUEBLA","HUEYAPAN","Atmoloni","de las flores","57","",""],"id obtenido":"2","level":"info","message":"datos guardados:","timestamp":"2024-04-13T05:07:38.414Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:13:55.333Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:14:26.110Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:14:52.599Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:16:05.434Z"}
+{"data":"1","error":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"SELECT cp,estado,municipio,colonia,calle,numeroExterior,numeroInterior,referencia FROM Direccion WHERE id=? - parameters:['1']","sqlMessage":"Table 'ecommerceAsb.Direccion' doesn't exist","sqlState":"42S02"},"level":"error","message":"Error al ejecutar la consulta SQL","querry":"SELECT cp,estado,municipio,colonia,calle,numeroExterior,numeroInterior,referencia FROM Direccion WHERE id=?","timestamp":"2024-04-13T05:16:19.553Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:16:49.007Z"}
+{"data":"1","error":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"SELECT cp,estado,municipio,colonia,calle,numeroExterno,numeroInterno,referencia FROM Direccion WHERE id=? - parameters:['1']","sqlMessage":"Table 'ecommerceAsb.Direccion' doesn't exist","sqlState":"42S02"},"level":"error","message":"Error al ejecutar la consulta SQL","querry":"SELECT cp,estado,municipio,colonia,calle,numeroExterno,numeroInterno,referencia FROM Direccion WHERE id=?","timestamp":"2024-04-13T05:16:52.133Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:17:09.951Z"}
+{"data":"1","error":{"code":"ER_NO_SUCH_TABLE","errno":1146,"fatal":false,"name":"SqlError","sql":"SELECT cp,estado,municipio,colonia,calle,numeroExterno,numeroInterno,referencia FROM Direccion WHERE id=? - parameters:['1']","sqlMessage":"Table 'ecommerceAsb.Direccion' doesn't exist","sqlState":"42S02"},"level":"error","message":"Error al ejecutar la consulta SQL","querry":"SELECT cp,estado,municipio,colonia,calle,numeroExterno,numeroInterno,referencia FROM Direccion WHERE id=?","timestamp":"2024-04-13T05:17:11.742Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:17:46.577Z"}
+{"level":"info","message":"Se consulto los datos de la dirección con el id: 1","querryResult":[{"calle":"de las flores","colonia":"Atmoloni","cp":73923,"estado":"PUEBLA","municipio":"HUEYAPAN","numeroExterno":"57","numeroInterno":"","referencia":""}],"timestamp":"2024-04-13T05:17:49.015Z"}
+{"level":"info","message":"Se consulto los datos de la dirección con el id: 2","querryResult":[{"calle":"de las flores","colonia":"Atmoloni","cp":73923,"estado":"PUEBLA","municipio":"HUEYAPAN","numeroExterno":"57","numeroInterno":"","referencia":""}],"timestamp":"2024-04-13T05:18:13.245Z"}
+{"level":"info","message":"Se consultaron los datos de la dirección con el id: 9 y no se encontraron datos","querryResult":[],"timestamp":"2024-04-13T05:18:56.366Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T05:20:18.254Z"}
+{"level":"info","message":"¡Se elimino la dirección con el id 9!","timestamp":"2024-04-13T05:20:19.847Z"}
+{"level":"info","message":"¡Se elimino la dirección con el id 2!","timestamp":"2024-04-13T05:20:30.685Z"}
+{"level":"info","message":"¡Se elimino la dirección con el id 1!","timestamp":"2024-04-13T05:20:40.806Z"}
+{"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T05:20:47.943Z"}
+{"data":["73923","PUEBLA","HUEYAPAN","Atmoloni","de las flores","57","",""],"id obtenido":"3","level":"info","message":"datos guardados:","timestamp":"2024-04-13T05:20:47.956Z"}

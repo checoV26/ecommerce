@@ -3,14 +3,14 @@ const Joi = require("joi");
 // definimos el objeto de validación
 
 const address = Joi.object({
-  pais: Joi.string().required(),
-  estado: Joi.string().required(),
-  municipio: Joi.string().required(),
-  colonia: Joi.string().required(),
-  calle: Joi.string().required(),
-  nExterior: Joi.string().required(),
-  nInterior: Joi.string().allow(""),
-  cp: Joi.number().required(),
+  cp: Joi.number().min(10000).max(99999).required(),
+  estado: Joi.string().max(50).required(),
+  municipio: Joi.string().max(50).required(),
+  colonia: Joi.string().max(50).required(),
+  calle: Joi.string().max(100).required(),
+  numeroExterno: Joi.string().max(50).required(),
+  numeroInterno: Joi.string().max(50).allow(""),
+  referencia: Joi.string().max(250).allow(""),
 });
 
 const person = Joi.object({
@@ -62,11 +62,6 @@ const valUser = (datos) => {
 const formatAddress = (data) => {
   let address = "";
 
-  // Validar y concatenar país
-  if (data.pais) {
-    address += data.pais + ", ";
-  }
-
   // Validar y concatenar estado
   if (data.estado) {
     address += data.estado + ", ";
@@ -88,13 +83,13 @@ const formatAddress = (data) => {
   }
 
   // Validar y concatenar número exterior
-  if (data.nExterior) {
-    address += "Nº " + data.nExterior + ", ";
+  if (data.numeroExterno) {
+    address += "Nº " + data.numeroExterno + ", ";
   }
 
   // Validar y concatenar número interior
-  if (data.nInterior) {
-    address += "Int. " + data.nInterior + ", ";
+  if (data.numeroInterno) {
+    address += "Int. " + data.numeroInterno + ", ";
   }
 
   // Validar y concatenar código postal

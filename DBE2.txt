@@ -1,0 +1,55 @@
+#ecommerceAsb
+
+CREATE TABLE address(
+	id int PRIMARY KEY AUTO_INCREMENT,
+	cp int NOT NULL,
+    estado varchar(50) NOT NULL,
+    municipio varchar(50) NOT NULL,
+    colonia varchar(50) NOT NULL,
+    calle varchar(100) NOT NULL,
+    numeroExterno varchar(50) NOT NULL,
+    numeroInterno varchar(50) NULL,
+    referencia varchar(250) NULL
+);
+
+CREATE TABLE puesto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE personal(
+	id int PRIMARY KEY AUTO_INCREMENT,
+    nombre varchar(50) NOT NULL,
+    apellidoP varchar(50) NOT NULL,
+    apellidoM varchar(50) NOT NULL,
+    correo varchar(100) NOT NULL ,
+    telefono varchar(10) NOT NULL,
+    direccion int NOT NULL,
+    puesto int not null,
+    status varchar(1) DEFAULT 'A',
+    FOREIGN KEY (puesto) REFERENCES puesto(id),
+    FOREIGN KEY (direccion) REFERENCES address(id)
+);
+
+CREATE TABLE rol (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    descripcion VARCHAR(255)
+);
+
+CREATE TABLE usuarios(
+	id int PRIMARY KEY AUTO_INCREMENT,
+    user varchar(20) NOT NULL,
+    password varchar(255) NOT NULL,
+    personal int not null,
+    rol int NOT NULL,
+    status varchar(1) DEFAULT 'A',
+    FOREIGN KEY (rol) REFERENCES rol(id),
+    FOREIGN KEY (personal) REFERENCES personal(id)
+);
+
+ALTER TABLE personal ADD CONSTRAINT unique_correo UNIQUE (correo), ADD CONSTRAINT unique_telefono UNIQUE (telefono);
+ALTER TABLE usuarios ADD CONSTRAINT unique_user UNIQUE (user);
+
+
