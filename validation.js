@@ -3,7 +3,6 @@ const jwt = require("jsonwebtoken");
 const Joi = require("joi");
 const bcrypt = require("bcrypt");
 require("dotenv").config();
-// definimos el objeto de validación
 
 const address = Joi.object({
   cp: Joi.number().min(10000).max(99999).required(),
