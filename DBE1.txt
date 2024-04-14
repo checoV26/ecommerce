@@ -1,1 +1,14 @@
 #ecommerceAsb
+CREATE TABLE `clients_users` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`nombre` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`apellidoP` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`apellidoM` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`telefono` VARCHAR(15) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`celular` VARCHAR(15) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`correo` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`user` VARCHAR(20) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`password` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`status` VARCHAR(1) NOT NULL COLLATE 'utf8mb4_general_ci',
+	PRIMARY KEY (`id`) USING BTREE
+)
