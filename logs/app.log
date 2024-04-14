@@ -68,3 +68,32 @@
 {"level":"info","message":"¡Se elimino la dirección con el id 1!","timestamp":"2024-04-13T05:20:40.806Z"}
 {"level":"info","message":"Petición recibida en /address","timestamp":"2024-04-13T05:20:47.943Z"}
 {"data":["73923","PUEBLA","HUEYAPAN","Atmoloni","de las flores","57","",""],"id obtenido":"3","level":"info","message":"datos guardados:","timestamp":"2024-04-13T05:20:47.956Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T19:22:31.934Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T21:56:26.281Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T21:56:38.663Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T21:56:48.085Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-13T21:58:30.839Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T00:08:59.335Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T00:18:38.909Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:09:33.435Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:10:17.759Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:30:35.333Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:32:23.511Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:33:44.169Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:34:20.302Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:34:38.892Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:37:09.642Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:38:08.670Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:39:06.344Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:47:51.613Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:49:29.421Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:50:01.939Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:50:37.029Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:52:50.686Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:56:36.737Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:57:33.789Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:58:02.475Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:58:30.427Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:59:06.696Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T02:08:37.743Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T19:02:58.782Z"}
