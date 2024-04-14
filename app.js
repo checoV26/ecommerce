@@ -13,9 +13,9 @@ const { logger } = require('./logger');
 
   const PORT = process.env.PORT;
 
-  app.get('/', (res) => {
-    res.send(`<h1>Bienvenido: Servidor Ejecutandose en el puerto: ${PORT}</h1>`)
-  })
+  // app.get('/', (res) => {
+  //   res.send(`<h1>Bienvenido: Servidor Ejecutandose en el puerto: ${PORT}</h1>`)
+  // })
 
   try {
     app.listen(PORT, () => {

@@ -3,7 +3,7 @@ const router = express.Router();
 
 const UserClientController = require('../controllers/user_clients');
 
-router.get('/cliente', UserClientController.getClients);
+router.get('/cliente/:id', UserClientController.getClients);
 // router.get('/');
 
 // router.get('/:id');

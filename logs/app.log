@@ -97,3 +97,71 @@
 {"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T01:59:06.696Z"}
 {"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T02:08:37.743Z"}
 {"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T19:02:58.782Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T19:48:45.465Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T19:58:03.524Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T19:58:11.790Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T19:59:19.242Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T20:32:21.466Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T20:32:33.640Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T20:32:36.776Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: undefined","timestamp":"2024-04-14T20:32:36.777Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T20:33:15.088Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: undefined","timestamp":"2024-04-14T20:33:15.088Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T20:34:34.366Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T20:34:50.173Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: undefined","timestamp":"2024-04-14T20:34:50.173Z"}
+{"level":"info","message":"Petición recibida en /cliente/undefined","timestamp":"2024-04-14T20:35:17.470Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: undefined","timestamp":"2024-04-14T20:35:17.471Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:35:26.207Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: 1","timestamp":"2024-04-14T20:35:26.208Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T20:35:43.075Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:35:46.178Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: 1","timestamp":"2024-04-14T20:35:46.179Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:35:50.330Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: 1","timestamp":"2024-04-14T20:35:50.330Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:36:48.193Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: 1","timestamp":"2024-04-14T20:36:48.193Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:43:02.729Z"}
+{"level":"info","message":"El cliente no es valido, id a consultar: 1","timestamp":"2024-04-14T20:43:02.730Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T20:44:45.223Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:44:50.843Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T20:44:50.853Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:45:17.202Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T20:45:17.204Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:45:31.930Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T20:45:31.932Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:51:37.249Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T20:51:37.250Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T20:56:20.162Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T20:56:20.165Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:01:00.918Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:01:55.112Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:01:55.117Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:04:01.778Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:04:30.644Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:05:31.290Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:07:53.846Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:08:10.492Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:08:10.501Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:10:47.616Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:10:50.653Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:10:50.663Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:19:45.045Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:19:45.049Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:19:55.796Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:19:57.755Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:19:57.766Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:23:35.936Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:23:35.938Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:24:31.542Z"}
+{"data":"1","level":"error","message":"Cliente inexistente","query":"SELECT * FROM clients_users WHERE id=?","timestamp":"2024-04-14T21:24:31.545Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:24:38.312Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:24:40.868Z"}
+{"level":"info","message":"Consulta de datos del cliente con id: 1","result":[{"apellidoM":"Martin","apellidoP":"Hernández","celular":"1230456789","correo":"correo@gmail.com","id":1,"nombre":"Candido","password":"123456789","status":"A","telefono":null,"user":"usuario1"}],"timestamp":"2024-04-14T21:24:40.890Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:51:13.042Z"}
+{"level":"info","message":"Consulta de datos del cliente con id: 1","result":[{"apellidoM":"Martin","apellidoP":"Hernández","celular":"1230456789","correo":"correo@gmail.com","id":1,"nombre":"Candido","password":"123456789","status":"A","telefono":null,"user":"usuario1"}],"timestamp":"2024-04-14T21:51:13.050Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:52:01.465Z"}
+{"level":"info","message":"Consulta de datos del cliente con id: 1","result":[{"apellidoM":"Martin","apellidoP":"Hernández","celular":"1230456789","correo":"correo@gmail.com","id":1,"nombre":"Candido","password":"123456789","status":"A","telefono":null,"user":"usuario1"}],"timestamp":"2024-04-14T21:52:01.475Z"}
+{"level":"info","message":"Servidor iniciado en el puerto 3000","timestamp":"2024-04-14T21:52:57.137Z"}
+{"level":"info","message":"Petición recibida en /cliente/1","timestamp":"2024-04-14T21:52:59.855Z"}
+{"level":"info","message":"Consulta de datos del cliente con id: 1","result":[{"apellidoM":"Martin","apellidoP":"Hernández","celular":"1230456789","correo":"correo@gmail.com","id":1,"nombre":"Candido","password":"123456789","status":"A","telefono":null,"user":"usuario1"}],"timestamp":"2024-04-14T21:52:59.868Z"}
