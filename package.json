@@ -4,7 +4,8 @@
   "description": "Tienda en linea asbombeo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "jsonwebtoken": "^9.0.2",
     "mariadb": "^3.3.0",
     "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

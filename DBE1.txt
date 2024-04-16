@@ -11,4 +11,4 @@ CREATE TABLE `clients_users` (
 	`password` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci',
 	`status` VARCHAR(1) NOT NULL COLLATE 'utf8mb4_general_ci',
 	PRIMARY KEY (`id`) USING BTREE
-)
+);

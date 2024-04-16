@@ -3,15 +3,7 @@ const router = express.Router();
 
 const UserClientController = require('../controllers/user_clients');
 
-router.get('/cliente/:id', UserClientController.getClients);
-// router.get('/');
-
-// router.get('/:id');
-
-// router.post('/id');
-
-// router.patch('/:id');
-
-// router.delete('/:id');
+router.post('/create_userclient', UserClientController.registerClient);
+router.get('/cliente/:id', UserClientController.getClient);
 
 module.exports = router;
