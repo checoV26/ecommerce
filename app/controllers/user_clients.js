@@ -105,6 +105,13 @@ const controller = {
                 });
             }
         }
+    },
+
+    updateCliente: async (req, res) => {
+        logger.info('Petición recibida desde /update_cliente')
+        const client_id = req.params.id;
+        // const client = req.body;
+        console.log(client_id);
     }
 }
 
