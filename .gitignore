@@ -1,4 +1,9 @@
 node_modules/
+<<<<<<< HEAD
 .env
 .env.example
 logs/
+=======
+losg/
+.env
+>>>>>>> ece8bdf529ae79478be9cb03c2b87d3f74867b29

@@ -317,7 +317,6 @@ app.put("/update/user/:id",validateToken, async (req, res) => {
       if (!valueComare) {
         objeto.password = await encriptarContrasena(user.password);
       }
-      console.log(objeto);
       const dataValue = querryCreate(objeto, "usuarios", "id");
       const querry = dataValue.concatQuerry;
       let data = dataValue.data;
